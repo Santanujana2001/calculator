@@ -168,3 +168,9 @@
         font-size: 100%;
     }
 }
+
+@media  screen and (max-width:285px) {
+    .credit {
+        font-size: 80%;
+    }
+}
