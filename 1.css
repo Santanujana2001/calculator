@@ -46,6 +46,7 @@
     height: 8%;
     background-color:white;
     margin-right: 10px;
+    cursor: pointer;
 }
 
  .screen p{
@@ -57,7 +58,7 @@
     display: flex; 
     justify-content : center;
     align-items: center;
-    font-size: 20px;
+   
     
 }
 .dialpad{
@@ -145,17 +146,25 @@
       cursor:pointer;
   }
  .texts{
-     /* opacity: 50%; */
+     opacity: 50%;
      cursor: pointer;
+     font-size: 130%;
  }
  .credit{
+     margin-top: 0;
+     font-size:130%;
+     opacity: 50%;
+     cursor: pointer;
+ }
+ /* .credit{
     opacity: 50%; 
+    font-size: 50%;
      /* position: relative;
      bottom: 10px; */
- }
+ 
 
-@media only screen and (max-width:382) {
+@media  screen and (max-width:329px) {
     .credit {
-        font-size: 15px;
+        font-size: 100%;
     }
 }
